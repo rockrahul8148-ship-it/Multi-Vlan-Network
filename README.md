@@ -1,7 +1,7 @@
 # Multi-VLAN Office Network Design (Packet Tracer)
 
 ## 📌 Overview
-This project demonstrates VLAN segmentation and inter-VLAN routing using Cisco Packet Tracer.
+This project demonstrates VLAN segmentation and inter-VLAN routing using Router-on-a-Stick architecture in Cisco Packet Tracer.
 
 ## 🏗️ Network Design
 - VLAN 10: IT Department (192.168.10.0/24)
@@ -18,11 +18,22 @@ This project demonstrates VLAN segmentation and inter-VLAN routing using Cisco P
 - Verified connectivity using ping
 - Successful communication between VLANs
 
-## 📸 Screenshots
-(Add screenshots here)
+## 📸 Project Screenshots
+
+### 🔹 Network Topology
+![Topology](screenshot/topology.png)
+
+### 🔹 VLAN Configuration
+![VLAN](screenshot/vlan-config.png)
+
+### 🔹 Router Configuration
+![Router](screenshot/router-config.png)
+
+### 🔹 Connectivity Test (Ping)
+![Ping](screenshot/ping-test.png)
 
 ## 🚀 Result
-Inter-VLAN routing successfully implemented.
+Successfully implemented inter-VLAN routing with proper communication between different departments.
 
 ## 👨‍💻 Author
 Rahul Rajput
